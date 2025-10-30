@@ -9,12 +9,12 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 setup(
     name="wheel-strategy-simulator",
     version="1.0.0",
-    author="[Your Name]",
-    author_email="[your.email@example.com]",
+    author="Carl Shipley",
+    author_email="cashiple@github.noreply.com",
     description="A web-based training simulator for practicing the wheel options trading strategy",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/[username]/wheel-strategy-simulator",
+    url="https://github.com/cashiple/carlship",
     package_dir={"": "src"},
     packages=find_packages(where="src"),
     classifiers=[
